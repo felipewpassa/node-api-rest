@@ -1,0 +1,15 @@
+{
+  "name": "node-api-rest",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Felipe Passa",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "formatcode": "yarn prettier --write ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  }
+}
